@@ -1,3 +1,6 @@
+body {
+  font-family: 'Athiti', sans-serif; }
+
 .container {
   width: 60%;
   min-height: 600px;
@@ -5,9 +8,48 @@
   margin-right: auto; }
 
 .accordion-container {
-  margin: 0 auto;
-  border: 1px solid #35c6d2; }
+  margin: 0 auto; }
 
-.accordion-header {
+.accordion-header-one {
   background: #35c6d2;
-  height: 40px; }
+  height: 40px;
+  color: white;
+  text-align: center; }
+  .accordion-header-one:hover {
+    background: #00daee; }
+
+.accordion-header-two {
+  background: #35c6d2;
+  height: 40px;
+  color: white;
+  text-align: center; }
+  .accordion-header-two:hover {
+    background: #00daee; }
+
+.accordion-header-three {
+  background: #35c6d2;
+  height: 40px;
+  color: white;
+  text-align: center; }
+  .accordion-header-three:hover {
+    background: #00daee; }
+
+.accordion-bellow.hide {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height .7s linear; }
+
+.accordion-content-one.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden; }
+
+.accordion-content-two.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden; }
+
+.accordion-content-three.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden; }

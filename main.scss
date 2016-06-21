@@ -1,3 +1,6 @@
+body {
+  font-family: 'Athiti', sans-serif;
+}
 .container {
   width: 60%;
   min-height: 600px;
@@ -7,10 +10,64 @@
 
 .accordion-container {
   margin: 0 auto;
-  border: 1px solid rgb(53, 198, 210);
+  // border: 1px solid rgb(53, 198, 210);
 }
 
-.accordion-header {
+.accordion-header-one {
   background: rgb(53, 198, 210);
   height: 40px;
+  color: white;
+  text-align: center;
+  &:hover {
+    background: rgb(0, 218, 238);
+  }
 }
+.accordion-header-two {
+  background: rgb(53, 198, 210);
+  height: 40px;
+  color: white;
+  text-align: center;
+  &:hover {
+    background: rgb(0, 218, 238);
+  }
+}
+.accordion-header-three {
+  background: rgb(53, 198, 210);
+  height: 40px;
+  color: white;
+  text-align: center;
+  &:hover {
+    background: rgb(0, 218, 238);
+  }
+}
+
+.accordion-bellow.hide {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height .7s linear;
+  // transition-delay: 0s;
+}
+.accordion-content-one.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden;
+}
+.accordion-content-two.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden;
+}
+.accordion-content-three.show {
+  max-height: 400px;
+  transition: all 1.5s linear;
+  overflow: hidden;
+}
+
+
+// .show {
+//   visibility: visible;
+// }
+
+// .collapse {
+//   visibility: collapse;
+// }
