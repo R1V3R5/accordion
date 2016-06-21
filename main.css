@@ -1,0 +1,13 @@
+.container {
+  width: 60%;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.accordion-container {
+  margin: 0 auto;
+  border: 1px solid #35c6d2; }
+
+.accordion-header {
+  background: #35c6d2;
+  height: 40px; }
