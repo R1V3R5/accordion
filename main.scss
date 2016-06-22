@@ -63,6 +63,22 @@ body {
   overflow: hidden;
 }
 
+.carousel {
+  width: 740px;
+  height: 420px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  img  {
+    width: 740px;
+    height: 420px;
+  }
+}
+
+.color {
+  background: black;
+}
 
 // .show {
 //   visibility: visible;

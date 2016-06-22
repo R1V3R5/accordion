@@ -39,4 +39,6 @@ Build a jQuery image carousel that will continue to show the images.
 Do not use any of the jQuery animation methods like fadeIn or fadeOut or even animate
 You must use the `carousel.js` file below to put the content on the page.
 
+![carousel.gif](carousel.gif)
+
 [Accordion GH-Pages](https://r1v3r5.github.io/accordion)

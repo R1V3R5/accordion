@@ -18,3 +18,11 @@ var processHeader3 = function(target) {
 $('.accordion-header-one').on('click', processHeader1)
 $('.accordion-header-two').on('click', processHeader2)
 $('.accordion-header-three').on('click', processHeader3)
+
+carousel = $('.carousel')
+
+var imgs = carouselImages.map(function(item) {
+  return item.image_url
+});
+
+carousel.html(`<img src="${imgs[1]}">`)
